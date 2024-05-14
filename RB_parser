@@ -21,7 +21,7 @@ soup = BeautifulSoup(driver.page_source, "html.parser")
 
 soup2 = soup.find_all('div', class_="news-item__text")
 
-#Получение ссылок, даты, названий
+##Получение ссылок, даты, названий
 
 def get_links(div):
     soup = BeautifulSoup(driver.page_source, "html.parser")
